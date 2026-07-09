@@ -95,7 +95,7 @@ export default function WorkIndex() {
             </motion.div>
           ))}
         </AnimatePresence>
-      </motion.div>
+      </div>
     </div>
   );
 }
