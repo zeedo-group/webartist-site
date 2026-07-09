@@ -17,9 +17,9 @@ export default function PageTransition({ children }: { children: ReactNode }) {
         <motion.div
           className="fixed inset-0 bg-magenta origin-bottom z-[9999]"
           style={{ pointerEvents: 'none' }}
-          initial={{ scaleY: 1 }}
+          initial={{ scaleY: 0 }}
           animate={{ scaleY: 0 }}
-          exit={{ scaleY: 1, originY: 0 }}
+          exit={{ scaleY: 1 }}
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
         />
       </motion.div>
