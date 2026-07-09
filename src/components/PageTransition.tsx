@@ -19,7 +19,7 @@ export default function PageTransition({ children }: { children: ReactNode }) {
           style={{ pointerEvents: 'none' }}
           initial={{ scaleY: 1 }}
           animate={{ scaleY: 0 }}
-          exit={{ scaleY: 1 }}
+          exit={{ scaleY: 1, originY: 0 }}
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
         />
       </motion.div>
